@@ -5,10 +5,12 @@ import Hero3 from '../Components/HeroComponent/Hero3'
 import Essentials from '../Components/HeroComponent/Essentials'
 import Hero5Denatlspa from '../Components/HeroComponent/DentalSpa'
 import Patienttestimonials from '../Components/HeroComponent/PatienttesTimonials'
+import BookingForm from '../Components/Components/Form/BookingForm'
 function HomePage() {
   return (
     <>
     <Hero />
+    <BookingForm />
     <Hero2 />
     <Hero3 />
     <Essentials />
