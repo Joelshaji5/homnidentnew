@@ -11,7 +11,7 @@ function Patienttestimonials() {
 
   return (
     <div className={isSmallScreen ? 'testimonialDiv' : 'sliderContainer'}>
-      {!isSmallScreen ? (
+      {isSmallScreen ? (
         <>
           <h1 className='testimonialHeading'>Patient testimonials</h1>
           <p className='testimonialPara'>Presenting the radiant smiles for our valued patients. We are dedicated to providing top-tier quality & care. Witnessing the joy in our patient’s smiles is our greatest reward.</p>

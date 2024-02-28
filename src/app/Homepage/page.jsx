@@ -6,6 +6,8 @@ import Essentials from '../Components/HeroComponent/Essentials'
 import Hero5Denatlspa from '../Components/HeroComponent/DentalSpa'
 import Patienttestimonials from '../Components/HeroComponent/PatienttesTimonials'
 import BookingForm from '../Components/Components/Form/BookingForm'
+import Footer from '../Components/Components/Footer/Footer'
+import SliderHome from '../Components/HeroComponent/SliderHome'
 function HomePage() {
   return (
     <>
@@ -15,7 +17,11 @@ function HomePage() {
     <Hero3 />
     <Essentials />
     <Hero5Denatlspa />
+    <SliderHome />
     <Patienttestimonials />
+    <BookingForm />
+    <Footer />
+
     
     </>
 

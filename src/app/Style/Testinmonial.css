@@ -21,16 +21,7 @@
     
     
     
-    .sliderContainer{
-    background-image: url("/testimonail.png");
-    background-repeat: no-repeat;
-    
-    object-fit: cover;
-    width: 100vw;
-    margin-top: 50px;
-    padding-bottom: 113px;
-    }
-    
+  
     
     
     
@@ -195,7 +186,10 @@
       display: block;
       }
     
-    
+      .sliderContainer{
+        display: none;
+    }
+
     
       @media only screen and (max-width: 768px) {
       
@@ -212,6 +206,18 @@
     line-height: normal;
     letter-spacing: -0.48px;
         }
+        
+     
+        .sliderContainer{
+            background-repeat: no-repeat;
+            display: block;
+            object-fit: cover;
+            width: 100vw;
+            margin-top: 50px;
+            overflow: hidden;
+
+            padding-bottom: 113px;
+            }
     
     
         .testinmonialReviewHAFterBtn{

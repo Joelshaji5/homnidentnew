@@ -109,6 +109,7 @@ text-transform: capitalize;
 text-align: center;
 margin-top: 81px;
 margin-bottom: 61px;
+
     }
     
   
@@ -215,5 +216,23 @@ line-height: normal;
 letter-spacing: -0.72px;
 text-transform: capitalize;
 }
-      
+.EssentialH{
+    color: #FFF;
+    text-align: center;
+    font-family: "Lexend Deca";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 100% */
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+padding-bottom: 200px;
+background: linear-gradient(180deg, #418FCC 0%, #26567B 100%);
+bottom: -220px;
+z-index: -5;
+margin-top: 0px;
+padding-top: 40px;
+position: relative;
+}
+
   }
