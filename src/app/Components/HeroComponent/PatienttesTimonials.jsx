@@ -42,7 +42,7 @@ function Patienttestimonials() {
             <div className="card">
               <h1 className='testimonialCardHeading'>Rohit Wakhare</h1>
               <p className='testimonialCardPara'>
-                Mahak an exceptional dentist who deserves my highest praise! Not only did they skillfully fix my tooth with precision and care, but their warm and friendly demeanor made me feel comfortable throughout the entire process. I&apos;m grateful for their expertise and grateful to have found such a talented professional. Thank you, for restoring my smile and providing an outstanding dental experience!"
+              "Mahak an exceptional dentist who deserves my highest praise! Not only did they skillfully fix my tooth with precision and care, but their warm and friendly demeanor made me feel comfortable throughout the entire process. I'm grateful for their expertise and grateful to have found such a talented professional. Thank you, for restoring my smile and providing an outstanding dental experience!"
               </p>
               <p className='TestimonialCardGoogle'>Google Review</p>
             </div>
