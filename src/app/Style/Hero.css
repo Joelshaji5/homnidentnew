@@ -1,0 +1,139 @@
+.Hero1{
+    background-image: url("/heroBgf.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 755px;
+}
+
+.heroHeadingTxt{
+    width: 50%;
+    z-index: 5;
+    margin-left: 100px;
+    margin-top: 247px;
+    width: 526px;
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.26px;
+    text-transform: capitalize;
+}
+
+.HeroimgCol{
+    height: 724px;
+ 
+}
+
+.heroSubHeadingTxt{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.6px;
+width: 296px;
+margin-left: 100px;
+margin-top: 9px;
+}
+
+.heroBtn{
+    margin-left: 100px;
+    color: #26567B;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+width: 180px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+margin-top: 24px;
+}
+
+
+.heroBtn1{display: none;}
+
+@media only screen and (max-width: 768px) {
+
+.heroHeadingTxt{
+    color: #FFF;
+text-align: center;
+font-family: "Lexend Deca";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 100% */
+letter-spacing: -0.96px;
+text-transform: capitalize;
+margin: auto;
+width: 90% ;
+margin-top: 430px;
+}
+
+
+.heroSubHeadingTxt{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.48px;
+margin: auto;
+width: auto ;
+}
+
+.heroBtn{
+    width: 156px;
+    height: 58px;
+    flex-shrink: 0;   
+    color: #26567B;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+
+.heroBtn1{
+    width: 156px;
+height: 58px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.48px;
+display: block;
+border: 1px solid #FFF;
+background: rgba(217, 217, 217, 0.00);
+
+border-radius: 10px;
+margin-top: 24px;
+
+
+}
+
+
+
+.Hero1{
+    
+    background-image: url(/maskHomeMb.png);
+}
+
+.heroBtn{
+    margin-left: 20px;
+}
+
+}
