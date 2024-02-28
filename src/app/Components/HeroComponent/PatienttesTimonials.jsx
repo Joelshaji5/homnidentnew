@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import "../../Style/Testinmonial.css";
 import SliderMobilePR from "../Components/Slider/SliderMobilePR.js"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Patienttestimonials() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);

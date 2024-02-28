@@ -4,6 +4,7 @@ import Hero2 from '../Components/HeroComponent/Hero2'
 import Hero3 from '../Components/HeroComponent/Hero3'
 import Essentials from '../Components/HeroComponent/Essentials'
 import Hero5Denatlspa from '../Components/HeroComponent/DentalSpa'
+import Patienttestimonials from '../Components/HeroComponent/PatienttesTimonials'
 function HomePage() {
   return (
     <>
@@ -12,6 +13,8 @@ function HomePage() {
     <Hero3 />
     <Essentials />
     <Hero5Denatlspa />
+    <Patienttestimonials />
+    
     </>
 
     )
