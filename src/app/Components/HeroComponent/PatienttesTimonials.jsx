@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import "../../Style/Testinmonial.css";
-import SliderMobilePR from "../Components/Slider/SliderMobilePR.js"
+import Responsive from "../Components/Slider/SliderMobilePR.js"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -56,7 +56,7 @@ function Patienttestimonials() {
             <h1 className='TestumonialMbH'>Patient testimonials</h1>
             <p className='TestumonialMbP'>Presenting the radiant smiles for our valued patients. We are dedicated to providing top-tier quality & care. Witnessing the joy in our patient’s smiles is our greatest reward.</p>
           </div>
-          <SliderMobilePR />
+          <Responsive />
         </>
       )}
     </div>
