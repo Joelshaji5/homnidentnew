@@ -3,10 +3,27 @@
     display: none;
 }
 
+
+.essentialsImgDiv1 >h1 {
+    color: #FFF;
+text-align: right;
+font-family: "Lexend Deca";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.96px;
+text-transform: capitalize;
+}
+
+
   .pic-grid {
     display: grid;  
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    width: 80vw;
+    margin: auto;
+    
 
 
   }
@@ -17,6 +34,8 @@
     flex-shrink: 0;
     text-align: end;
     width: 353px;
+    align-items: end;
+    justify-content: end;
 
     
           }
@@ -58,6 +77,8 @@
             object-fit: cover;
             background-position: center;
             background-repeat: no-repeat;
+            margin-top: 57px;
+
             width: 353px;
             height: 353px;
             flex-shrink: 0;          }
@@ -69,6 +90,8 @@
             object-fit: cover;
             background-position: center;
             background-repeat: no-repeat;
+            margin-top: 57px;
+
             width: 353px;
             height: 353px;
             flex-shrink: 0;          }
@@ -80,6 +103,8 @@
             object-fit: cover;
             background-position: center;
             background-repeat: no-repeat;
+            margin-top: 57px;
+
             width: 353px;
             height: 353px;
             flex-shrink: 0;          }

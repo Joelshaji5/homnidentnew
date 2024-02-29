@@ -53,7 +53,7 @@ letter-spacing: -0.48px;
     }
     .about2Div{
         flex-direction: column-reverse;
-        background-image: url("/hero2DivMb.png");
+        background-image: url("/WhoWeMb.png");
         background-size: auto;
         background-position: top;
         background-repeat: no-repeat;
@@ -129,6 +129,8 @@ position: relative;
         display: block;
 
         background-image: url("/MbHero2BgImg");
+        margin-bottom: -150px;
+
     }
 
 
