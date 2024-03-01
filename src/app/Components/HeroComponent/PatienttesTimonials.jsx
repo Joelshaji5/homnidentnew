@@ -42,7 +42,7 @@ function Patienttestimonials() {
             <p className='TestimonialCardGoogle'>Google Review</p>
           </div>
         </div>
-        <h1 className='testimonialSubHeading'>Homnident is all about creating smiles by winning hearts too!</h1>
+        <h1 className='testimonialSubHeading'>Homnident is all about creating smiles by winning hearts too</h1>
         <button className='BookBtn'>Book A Consultation Now</button>
       </div>
       <div className='sliderContainer'>
