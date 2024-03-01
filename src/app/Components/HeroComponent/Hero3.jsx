@@ -28,8 +28,8 @@ function Hero3() {
             <p className='h3SubPara'>We aim to provide the best treatment yet being cost-effective & pocket friendly, suitable for all classes.</p>
         </div>
         <div className='imgh3div'>
-            <img src="./CovidSafety.png" alt="Covid Safety" />
-            <h3 className='h3SubHeading'>Covid Safety</h3>
+            <img src="./CovidSafety.png" alt="Denatal safety" />
+            <h3 className='h3SubHeading'>Dental Safety</h3>
             <p className='h3SubPara'>We adhere to sterilisation & disinfection protocols, ensuring the same level of cleanliness & safety as in a clinic setting.</p>
         </div>
     </div>

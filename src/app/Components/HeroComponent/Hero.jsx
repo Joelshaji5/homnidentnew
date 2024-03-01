@@ -8,8 +8,10 @@ function Hero() {
         <p className='heroSubHeadingTxt '>Get Dental care at the comfort of your home.</p>
         <div className='flex justify-center'>
         <button className='heroBtn1'>Join Us</button>
-
+        <a href="#first-section">
         <button className='heroBtn'>Book Now</button>
+
+        </a>
 
 
 

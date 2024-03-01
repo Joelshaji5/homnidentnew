@@ -13,19 +13,19 @@ function Footer() {
     </div>
     <div className='footerTxtDiv flex-col'>
         <div className='flex SocialMediaLogoDiv'>
-            <div>  <Image
+            <div>  <img
       src="/FbLogo.png"
       width={24}
       height={24}
       alt="Facebook"
     /></div>
-            <div className='ml-3'>  <Image
+            <div className='ml-3'>  <img
       src="/InstaLogo.png"
       width={24}
       height={24}
       alt="Instagram"
     /></div>
-            <div className='ml-3'>  <Image
+            <div className='ml-3'>  <img
       src="/TweeterLogo.png"
       width={24}
       height={24}

@@ -69,6 +69,8 @@ function Responsive() {
         {testimonials.map((testimonial, index) => (
           <div key={index} className="DivSliderMobilePR">
             <h1 key={index} className="testinmonialReviewH">{testimonial.name}</h1>
+            <img src='Star.png' className='StarImg' alt='star rateing'/>
+
             <p key={index} className="testinmonialReviewP">{testimonial.content}</p>
             <ul>
               <li className="testinmonialReviewLi">Google Review</li>
