@@ -2,7 +2,9 @@
     background-color: #26567B;
     height: 357px;
     display: flex;
-    margin-top: 100px
+    margin-top: 100px;
+    align-items:center;
+
     ;
 }
 
@@ -13,6 +15,8 @@
     display: flex;
     justify-content: end;
     align-items: center;
+    padding-right: 15%;
+    height: 184px;
 }
 
 .footerTxtDiv{
@@ -20,6 +24,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.FooterDivH3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+align-items: center;
+
+
+}
+
+.SocialMediaLogoDiv{
+    margin-bottom: 24px;
 }
 
 @media only screen and (max-width: 768px) {
