@@ -57,6 +57,7 @@ align-items: center;
 
     .footerImgDiv{
         width: auto;
+        border: none;
     }
     
     .footerTxtDiv{

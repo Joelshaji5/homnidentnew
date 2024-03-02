@@ -1,0 +1,56 @@
+.navBtn{
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #FFF;
+color: #26567B;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+
+}
+
+.font-signature{
+    margin-left: 100px;
+}
+
+
+.links{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+
+.nav-linksnew{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.navBtn:hover{
+    scale: 1.1;
+}
+
+.nav {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+@media only screen and (max-width: 780px) {
+
+.navBtn{
+display: none;
+}
+
+.font-signature{
+    margin-left: 10px;
+}
+
+}
