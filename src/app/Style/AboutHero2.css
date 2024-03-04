@@ -4,6 +4,16 @@
 
 }
 
+.AmoutImgDivBg{
+    position: relative;
+    z-index: -10;
+    top: -150px;
+    height: 23px;
+    object-fit: cover;
+    width: 100vw;
+
+}
+
 .AboutCommunity{
     padding-top: 145px;
     text-align: end;

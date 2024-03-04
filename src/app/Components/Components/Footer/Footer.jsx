@@ -16,11 +16,11 @@ function Footer() {
           </div>
           <div className="ml-3">
             {" "}
-            <img src="/InstaLogo.png" width={24} height={240} alt="Instagram" />
+            <img src="/InstaLogo.png" width={24} height={24} alt="Instagram" />
           </div>
           <div className="ml-3">
             {" "}
-            <img src="/TweeterLogo.png" alt="Tweeter" />
+            <img src="/TweeterLogo.png" alt="Tweeter" width={24} height={24} />
           </div>
         </div>
         <div className="FooterDivH3">
@@ -29,7 +29,7 @@ function Footer() {
           <h3>Phone number - 95037 75068</h3>
         </div>
         <div>
-          <p className="Designed">Designed by - TechRift Dynamics</p>
+          <p className="FooterDivH3">Designed by - TechRift Dynamics</p>
         </div>
       </div>
     </div>

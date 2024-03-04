@@ -44,7 +44,15 @@ function AboutHero2() {
       <p className='CampDivP' >Homnident conducts dental checkups for students directly at schools, emphasizing preventive measures and oral hygiene education. These initiatives aim to instill good dental habits and improve overall well-being among young individuals</p>
     </div>
 
+
+
+
     </div>
+
+    <div className='AmoutImgDivBg'>
+        <img src='AmoutImgDivBg.png' alt='background'/>
+    </div>
+
 
     <div className='flex mt-[30px] justify-center AboutImgDiv'>
       <div className="campsDiv3">
@@ -53,6 +61,7 @@ function AboutHero2() {
 
         <p className='CampDivP' >Homnident organizes dental health checkups within residential communities, prioritizing the oral well-being of residents. </p>
       </div>
+    
       <div className="campsDiv4 ml-[30px]">
 
         <h1 className='CampDivH' >Community Dental Camps</h1>
@@ -63,6 +72,9 @@ function AboutHero2() {
     </div>
 
 
+
+
+   
 <Footer />
 </div>
   )
