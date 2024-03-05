@@ -73,6 +73,9 @@ text-transform: capitalize;
     object-fit: cover;
     width: 100vw;
     height: 41vh;
+    background: none;
+    background-repeat: no-repeat;
+    background-position: top;
     }
     
 
@@ -80,7 +83,4 @@ text-transform: capitalize;
         flex-direction: column;
     }
 
-    .heroAboutDiv{
-        height: auto;
-    }
 }

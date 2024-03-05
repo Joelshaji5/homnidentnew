@@ -7,6 +7,7 @@ import Hero5Denatlspa from '../Components/HeroComponent/DentalSpa'
 import Patienttestimonials from '../Components/HeroComponent/PatienttesTimonials'
 import BookingForm from '../Components/Components/Form/BookingForm'
 import Footer from '../Components/Components/Footer/Footer'
+import Form from '../Components/Components/Form/FormPC'
 function HomePage() {
   return (
     <>
@@ -18,6 +19,7 @@ function HomePage() {
     <Hero5Denatlspa />
     <Patienttestimonials />
     <BookingForm />
+    <Form />
     <Footer />
 
     
