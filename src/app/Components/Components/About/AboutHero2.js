@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../../Style/AboutHero2.css"
 import Footer from '../Footer/Footer'
+import Form from '../Form/FormPC'
 
 function AboutHero2() {
   return (
@@ -74,7 +75,7 @@ function AboutHero2() {
 
 
 
-   
+    <Form />
 <Footer />
 </div>
   )

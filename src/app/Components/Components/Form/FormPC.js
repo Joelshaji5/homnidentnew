@@ -18,7 +18,7 @@ function Form() {
                 type="text"
                 id="name"
                 name="First_name"
-                className="firstnamebox"
+                className="firstnamebox FormInput"
                 placeholder="First Name*"
                 // value={formData.First_name}
                 // onChange={handleChange}
@@ -30,6 +30,7 @@ function Form() {
                 type="text"
                 id="last_Name"
                 name="last_name"
+                className='FormInput'
                 placeholder="Last Name*"
                 // value={formData.last_name}
                 // onChange={handleChange}
@@ -45,30 +46,17 @@ function Form() {
                 type="email"
                 placeholder="Email Address**"
                 name="Email"
+                className='FormInput'
                 // value={formData.Email}
                 // onChange={handleChange}
               />
 
               <br></br>
 
-              <input
-                type="number"
-                id="number"
-                name="number"
-                placeholder="Phone Number*"
-                // value={formData.last_name}
-                // onChange={handleChange}
-              />
-
+              <input  type="number"  className='FormInput' id="number"  name="number" placeholder="Phone Number*"   // value={formData.last_name}    // onChange={handleChange}
+/>
               <br></br>
-
-       
-
-              <input
-                type="submit"
-                value="Book A Consultation Now"
-                className="submitFormBtn"
-              />
+              <input type="submit"  value="Book A Consultation Now"  className="submitFormBtn"/>
             </div>
             
           </form>

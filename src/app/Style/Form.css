@@ -7,9 +7,21 @@ height: 495px;
 flex-shrink: 0;
 margin-top: 100px;
 margin-left: auto;
+border-radius: 20px;;
 margin-right: auto;
 }
 
+
+.FormInput{
+    padding: 5px;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+.FormInput::placeholder {
+color: white;
+}
 
 .formHeading{
     color: #FFF;
