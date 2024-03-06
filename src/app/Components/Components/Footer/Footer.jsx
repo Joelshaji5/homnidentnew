@@ -12,15 +12,15 @@ function Footer() {
         <div className="flex SocialMediaLogoDiv">
           <div>
             {" "}
-            <img src="/FbLogo.png" width={24} height={24} alt="Facebook" />
+            <img src="/facebook.png" width={24} height={24} alt="Facebook" />
           </div>
           <div className="ml-3">
             {" "}
-            <img src="/InstaLogo.png" width={24} height={24} alt="Instagram" />
+            <img src="/Instagram.png" width={24} height={24} alt="Instagram" />
           </div>
           <div className="ml-3">
             {" "}
-            <img src="/TweeterLogo.png" alt="Tweeter" width={24} height={24} />
+            <img src="/Twitter.png" alt="Tweeter" width={24} height={24} />
           </div>
         </div>
         <div className="FooterDivH3">

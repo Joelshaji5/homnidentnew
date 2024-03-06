@@ -55,4 +55,10 @@ display: none;
     margin-left: 10px;
 }
 
+
+.nav {
+    /* backdrop-filter: blur(10px); */
+    background: #26567B;
+}
+
 }
