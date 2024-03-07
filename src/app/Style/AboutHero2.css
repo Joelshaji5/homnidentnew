@@ -170,7 +170,21 @@ margin: auto;
         align-items: center;
     }
 
+
+    .AboutHero2Div{
+        background-image: url("/AboutImgBgMb.png");
+        object-fit: cover;
+        width: 100vw;
+        margin-top: 20px;
+    }
     
+    .heroAboutDiv{
+        height: auto;
+    }
+    
+    .AmoutImgDivBg{
+        display: none;
+    }
     
     .campsDiv1{
         width: 80%;
@@ -229,6 +243,7 @@ text-transform: capitalize;
     height: 390px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
 
 }
 
@@ -237,6 +252,7 @@ text-transform: capitalize;
     height: 261px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
 
 }
 
@@ -245,6 +261,8 @@ text-transform: capitalize;
     height: 261px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
+
 
 }
 
@@ -253,6 +271,8 @@ text-transform: capitalize;
     height: 390px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
+
 
 }
 
@@ -262,14 +282,16 @@ text-transform: capitalize;
     height: 280px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
 
 }
 
-.community6{
+.communit6{
     width: 90vw;
     height: 390px;
     flex-shrink: 0;
     border-radius: 20px;
+    object-fit: cover;
 
     
 }
@@ -299,6 +321,7 @@ letter-spacing: -1.26px;
 text-transform: capitalize;
 margin-inline: 54px;
 width: auto;
+padding-top: 80px;
 }
 
 .AboutCommunityP{
