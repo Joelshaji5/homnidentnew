@@ -70,9 +70,10 @@ const Navbar = () => {
           ))}
         </ul>
       )}
-      <Link href="/contact">
+      <a href="#Form-section">
+
         <button className="text-black mr-10 navBtn">Contact</button>
-      </Link>
+        </a>
     </div>
   );
 };
