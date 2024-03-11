@@ -228,6 +228,7 @@
     margin: auto;
     margin-top: 24px;
     margin-bottom: 50px;
+    display: block;
   }
 
   .atul {
@@ -263,4 +264,5 @@
     padding-top: 14px;
     padding-bottom: 140px;
   }
+
 }

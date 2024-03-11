@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import "../../../Style/BookingForm.css"
+import emailjs from '@emailjs/browser';
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -17,10 +18,9 @@ const BookingForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('your_service_id', 'your_template_id', formData, 'your_user_id')
+    emailjs.send('service_j0jqy15', 'template_ohfbfcb', formData, 'gJGiucIOoC9vTBLRp')
       .then((response) => {
         console.log('Success!', response.status, response.text);
-        alert('Booking request sent successfully!');
         setFormData({
           name: '',
           contact: '',
@@ -29,7 +29,6 @@ const BookingForm = () => {
         });
       }, (error) => {
         console.error('Failed to send email. Error:', error);
-        alert('Failed to send booking request. Please try again later.');
       });
   };
 

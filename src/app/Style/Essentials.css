@@ -176,7 +176,7 @@ text-align: end;
       }
 
       .mobile-grid > div:nth-child(1) {
-        background-image: url("/Essential4Mb.png");
+        background-image: url("/Essential4Mbnew1.png");
         object-fit: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -186,7 +186,7 @@ height: 200px;
       }
       
       .mobile-grid > div:nth-child(2) {
-        background-image: url("/Essential4Mb.png");
+        background-image: url("/Essential4Mbnew2.png");
         object-fit: cover;
         background-position: center;
         background-repeat: no-repeat;
