@@ -72,7 +72,7 @@ text-transform: capitalize;
     background-image: url("/AboutHeroMobile.png");
     object-fit: cover;
     width: 100vw;
-    height: 41vh;
+    height: auto;
     background: none;
     background-repeat: no-repeat;
     background-position: top;
