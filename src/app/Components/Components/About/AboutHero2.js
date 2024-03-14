@@ -2,6 +2,8 @@ import React from 'react'
 import "../../../Style/AboutHero2.css"
 import Footer from '../Footer/Footer'
 import Form from '../Form/FormPC'
+import BookingFormAbout from '../Form/BookingFormAbout'
+import FormPcAbout from '../Form/FormPcAbout'
 
 function AboutHero2() {
   return (
@@ -75,7 +77,8 @@ function AboutHero2() {
 
 
 
-    <Form />
+    <FormPcAbout />
+        <BookingFormAbout />
 <Footer />
 </div>
   )

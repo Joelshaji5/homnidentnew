@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "../../../Style/Form.css"
 import emailjs from '@emailjs/browser';
 
-function Form() {
+function FormPCAbout() {
 
 
   const [formDataNew, setFormDataNew] = useState({
@@ -41,7 +41,7 @@ function Form() {
 
 
   return (
-    <div className='flex formDiv FormMainDiv' id="Form-section">
+    <div className='flex formDivAbout FormMainDiv' id="Form-section">
     <div className='w-[50%] form1stDiv'></div>
     <div className='w-[50%]'>
         <h1 className="formHeading" >Register for a Home <br></br> Consultation here !</h1>
@@ -106,4 +106,4 @@ function Form() {
   )
 }
 
-export default Form
+export default FormPCAbout

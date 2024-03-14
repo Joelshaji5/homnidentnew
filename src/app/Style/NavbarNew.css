@@ -1,0 +1,29 @@
+
+.DivBtnNavBarHideMb{
+    display: block;
+}
+
+
+.HideMbDiv{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+
+.NavDivMbBg
+{
+    background-color: #26567B;
+}
+
+.DivBtnNavBarHideMb{
+    display: none;
+}
+
+.HideMbDiv{
+    display: none;
+}
+
+
+}

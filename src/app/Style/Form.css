@@ -12,15 +12,32 @@ margin-right: auto;
 }
 
 
+.formDivAbout{
+    background-image: url("/AboutFormBg.png");
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+height: 495px;
+flex-shrink: 0;
+margin-top: 100px;
+margin-left: auto;
+border-radius: 20px;;
+margin-right: auto;
+}
+
+
 .FormInput{
     padding: 5px;
     border:none;
     background: transparent;
     border-bottom: 1px solid white;
+    padding-left: 15px;
+    color: white;
+
 }
 
-.FormInput::placeholder {
-color: white;
+.fromInSideDiv > input::placeholder {
+    color: red;
 }
 
 .formHeading{
@@ -63,13 +80,21 @@ margin-top: 60px;
 
 .fromInSideDiv > input{
     width: 432px;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
     margin-top: 30px;
     margin-left: 72px;
     
 
   }
 
+  .firstnamebox::placeholder,
+  .FormInput::placeholder {
+      color: white;
+  }
+
+/* 
+  input[type=number]::-webkit-inner-spin-button {
+display: none;} */
 
 
   .fromInSideDiv >input::placeholder {
