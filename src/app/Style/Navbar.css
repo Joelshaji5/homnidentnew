@@ -21,6 +21,11 @@ letter-spacing: -0.6px;
 }
 
 
+
+.PcNavbar{
+    display: block;
+}
+
 .links{
     color: #FFF;
 font-family: Montserrat;
@@ -45,6 +50,12 @@ letter-spacing: -0.48px;
     /* backdrop-filter: blur(10px); */
     background-color: rgba(255, 255, 255, 0.5); 
   }
+
+
+  .HideMbNavbar{
+    display: block;
+}
+
 @media only screen and (max-width: 780px) {
 
 .navBtn{
@@ -56,9 +67,19 @@ display: none;
 }
 
 
+
+.HideMbNavbar{
+    display: none;
+}
+
+
 .nav {
     /* backdrop-filter: blur(10px); */
     background: #26567B;
+}
+
+.PcNavbar{
+    display: none;
 }
 
 }
