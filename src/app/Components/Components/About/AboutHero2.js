@@ -8,10 +8,10 @@ import FormPcAbout from '../Form/FormPcAbout'
 function AboutHero2() {
   return (
     <div className='AboutHero2Div mb-4'>
-        
+        <div className='ComunityBgDiv'>
     <h1 className='AboutCommunity'>Giving Back to the community!</h1>
     <p className='AboutCommunityP'>Since the establishment of Homnident, Our sole focus and efforts are towards the good we can do for the community and how we can make dental health better while spreading awareness. Check out our journey from a few of such works we did.</p>
-
+    </div>
 
     <div className='flex justify-center gap-[30px] mt-[30px] AboutImgDiv'>
       <img className='community1' src="/community1.png" alt="" />
@@ -53,7 +53,7 @@ function AboutHero2() {
     </div>
 
     <div className='AmoutImgDivBg'>
-        <img src='AmoutImgDivBg.png' alt='background'/>
+        <img src='About2BgStraightLine.png' alt='background'/>
     </div>
 
 

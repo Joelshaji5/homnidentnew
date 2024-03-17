@@ -46,7 +46,7 @@ function Hero2() {
           </div>
           <div>
           <img src="./whyMb14.png" alt=""  className='About2ImgMb'/>
-<h1 className='whyChooseMbH'>Covid Safety</h1>
+<h1 className='whyChooseMbH'>Dental Safety</h1>
 <p className='whyChooseMbP'>We adhere to sterilisation & disinfection protocols, ensuring the same level of cleanliness & safety as in a clinic setting.</p>
           </div>
 

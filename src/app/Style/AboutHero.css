@@ -83,4 +83,12 @@ text-transform: capitalize;
         flex-direction: column;
     }
 
+    .DrName{
+        margin-top: 30px;
+    }
+
+    .designation{
+        margin-bottom: 10px;
+    }
+
 }

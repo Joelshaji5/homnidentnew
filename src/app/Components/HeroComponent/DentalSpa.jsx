@@ -8,7 +8,7 @@ function Hero5Denatlspa() {
         <div className='mt-9 '>
             <h1 className='text-center Hero5Heading'>Dental spa</h1>
         </div>
-        <div className='flex justify-evenly mb-7'>
+        <div className='flex justify-center mb-7  gap-7'>
 <div className='dentalSpaCard card1'>
 <h1 className='cardHeading'>DentaGleam <br></br>Scaling & Polishing </h1>
 <p className='CardPara'>Thorough deep cleaning paired with polishing.</p>
@@ -19,7 +19,7 @@ function Hero5Denatlspa() {
 </div>
         </div>
 
-        <div className='flex justify-evenly'>
+        <div className='flex justify-center gap-7'>
 <div className='dentalSpaCard card3'>
 <h1 className='cardHeading'>DentaGleam <br></br>Scaling & Polishing </h1>
 <p className='CardPara'>Thorough deep cleaning paired with polishing.</p>

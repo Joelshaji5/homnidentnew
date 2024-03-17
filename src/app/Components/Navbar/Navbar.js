@@ -32,14 +32,14 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Image src="/HomnidentLogo.png" alt="HomnidentLogo" width={200} height={300} />
+            <Image src="/HomnidentLogo3.png" alt="HomnidentLogo" width={200} height={300} />
           </a>
         </h1>
         <ul className="hidden md:flex nav-linksnew ">
         {links.map(({ id, link, name }) => (
           <li
             key={id}
-            className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-black duration-200 link-underline"
+            className="nav-links px-4 cursor-pointer capitalize font-medium  hover:scale-105  duration-200 link-underline"
           >
             <Link href={link}>{name}</Link>
           </li>
