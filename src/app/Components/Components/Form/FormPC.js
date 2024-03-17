@@ -24,6 +24,8 @@ function Form() {
 
     emailjs.send('service_j0jqy15', 'template_vtvg79l', formDataNew, 'gJGiucIOoC9vTBLRp')
       .then((response) => {
+        alert('Form submitted successfully!');
+
         console.log('Success!', response.status, response.text);
         setFormDataNew({
           name: '',

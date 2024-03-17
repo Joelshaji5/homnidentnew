@@ -20,6 +20,8 @@ const BookingFormAbout = () => {
 
     emailjs.send('service_j0jqy15', 'template_ohfbfcb', formData, 'gJGiucIOoC9vTBLRp')
       .then((response) => {
+        alert('Form submitted successfully!');
+
         console.log('Success!', response.status, response.text);
         setFormData({
           name: '',
