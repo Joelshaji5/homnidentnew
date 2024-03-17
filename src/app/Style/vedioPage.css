@@ -1,0 +1,34 @@
+/* vedioPage.css */
+
+.vedioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+    margin-top: 50px;
+  }
+  
+  .vedioDiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .videoElement {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    margin: auto;
+    max-height: 100%;
+    width: 100%;
+}
+  
+@media only screen and (max-width: 768px) 
+{
+
+.vedioContainer{
+    height: auto;
+}
+
+
+}

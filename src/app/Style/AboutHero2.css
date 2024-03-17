@@ -1,6 +1,8 @@
 .AboutHero2Div{
     background-image: url("/AboutHero2Bg.png");
     background-repeat: no-repeat;
+    background-size: contain;
+
 
 }
 
