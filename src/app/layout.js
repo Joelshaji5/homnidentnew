@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Homnident",
-  description: "Making oral health accessible and affordablep",
+  description: "In search of a dentist near you? Look no further! Homnident brings to you the best dental care right at your doorstep through our expert dentists and advance equipments. From root canal to implants, get all dental treatments at your home.",
 };
 
 export default function RootLayout({ children }) {
