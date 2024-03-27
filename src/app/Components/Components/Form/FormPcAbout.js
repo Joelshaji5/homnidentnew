@@ -98,7 +98,7 @@ function FormPCAbout() {
               <input  type="number"  className='FormInput' id="number"  name="contact" placeholder="Phone Number*" value={formDataNew.contact} onChange={handleChange} required  // value={formData.last_name}    // onChange={handleChange}
 />
               <br></br>
-              <input type="submit"  value="Book A Consultation Now"  className="submitFormBtn"/>
+              <input type="submit"  value="Book A Consultation Now"  className="submitFormBtn "/>
             </div>
             
           </form>

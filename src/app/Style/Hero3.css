@@ -5,7 +5,7 @@
 .Hero3{
     background-image: url("/hero3Bg.png");
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     width: 100%;
     height: 700px;
     border: none;
