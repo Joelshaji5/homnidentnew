@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import Form from '../Form/FormPC'
 import BookingFormAbout from '../Form/BookingFormAbout'
 import FormPcAbout from '../Form/FormPcAbout'
+import WorkithUSdiv from './WorkithUSdiv'
 
 function AboutHero2() {
   return (
@@ -76,7 +77,7 @@ function AboutHero2() {
 
 
 
-
+    <WorkithUSdiv />
     <FormPcAbout />
         <BookingFormAbout />
 <Footer />

@@ -12,6 +12,8 @@ margin-right: auto;
 }
 
 
+
+
 .formDivAbout{
     background-image: url("/AboutFormBg.png");
     background-size: cover;
@@ -78,7 +80,7 @@ margin-top: 60px;
 }
 
 
-.fromInSideDiv > input{
+.fromInSideDiv > input {
     width: 432px;
     /* border-bottom: 1px solid #000; */
     margin-top: 30px;
@@ -87,10 +89,34 @@ margin-top: 60px;
 
   }
 
+
+  .fromInSideDiv > input::placeholder{
+    color: #FFF;
+  }
+
   .firstnamebox::placeholder,
   .FormInput::placeholder {
       color: white;
   }
+
+
+  #name::placeholder{
+    color: #FFF;
+  }
+
+  #last_Name::placeholder{
+    color: #FFF;
+  }
+
+  #email::placeholder{
+    color: #FFF;
+  }
+
+  #number::placeholder{
+    color: #FFF;
+  }
+
+
 
 /* 
   input[type=number]::-webkit-inner-spin-button {

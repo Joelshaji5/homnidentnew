@@ -60,6 +60,8 @@ function FormPCAbout() {
                 className="firstnamebox FormInput"
                 placeholder="First Name*"
                 value={formDataNew.name} onChange={handleChange} required
+                style={{ '::placeholder': { color: 'red' } }} 
+
               />
 
               <br></br>
@@ -68,9 +70,10 @@ function FormPCAbout() {
                 type="text"
                 id="last_Name"
                 name="last_name"
-                className='FormInput'
+                className='FormInput placeholder-red'
                 placeholder="Last Name*"
                 value={formDataNew.last_name} onChange={handleChange} required
+                style={{color: 'red'}} // Change 'red' to the desired color
 
               />
 
@@ -84,6 +87,7 @@ function FormPCAbout() {
                 type="email"
                 placeholder="Email Address**"
                 name="Email"
+                id='email'
                 className='FormInput'
                 value={formDataNew.Email} onChange={handleChange} required
 
