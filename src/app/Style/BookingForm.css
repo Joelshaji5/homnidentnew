@@ -11,10 +11,8 @@ margin-bottom: 51px;
 }
 
 
-.bookingFormcontainerMain {
-    background-image: url(/FormBgMb.png);
+.bookingFormcontainerMainnew {
     object-fit: cover;
-    padding-top: 2px;
     padding-bottom: 2px;
 }
 

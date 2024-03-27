@@ -35,7 +35,7 @@ const BookingFormAbout = () => {
   };
 
   return (
-    <div className='bookingFormcontainerMain ' id="first-section">
+    <div className='bookingFormcontainerMainnew ' id="first-section">
     <div className="bookingFormcontainer">
       <h2 className='bookingFormcontainerH' >Work with us</h2>
       <form onSubmit={handleSubmit}>

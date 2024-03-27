@@ -84,6 +84,7 @@ function Form() {
                 type="email"
                 placeholder="Email Address**"
                 name="Email"
+                id='email'
                 className='FormInput'
                 value={formDataNew.Email} onChange={handleChange} required
 

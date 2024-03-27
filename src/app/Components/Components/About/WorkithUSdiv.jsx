@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../../Style/WorkithUS.css"
 
 const WorkithUSdiv = () => {
     return (

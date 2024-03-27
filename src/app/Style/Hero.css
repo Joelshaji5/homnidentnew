@@ -62,6 +62,10 @@ margin-top: 24px;
 
 @media only screen and (max-width: 768px) {
 
+    .HeroBtnDiv{
+        justify-content: center;
+    }
+
 .heroHeadingTxt{
     color: #FFF;
 text-align: center;
